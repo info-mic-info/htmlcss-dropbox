@@ -118,12 +118,44 @@ span {
     font-size: 40px;
 }
 
-/* main centrale */
+/* main centrale---------------------------- */
+
+.container-mn{
+    margin: 0% auto;
+    width: 75%;
+}
+
+.container-mn .row{
+    justify-content: center;
+}
 
 .col-30{
     width: 30%;
-    height: 50px;
+    margin-top: 30px;
+    margin: 0 auto;
+    
 }
+
+.title{
+    display: flex;
+    border: solid 1px grey;    
+}
+
+.content-tab{
+    border: solid 1px grey;
+}
+
+.content-tab ul{
+    display: flex;
+    flex-direction: column;
+}
+
+li span{
+    display: inline;
+}
+
+
+
 
 
 
