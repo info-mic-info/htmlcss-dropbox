@@ -11,33 +11,32 @@
     margin: 0 auto;
 }
 
-
-.row, .col-hr, ul {
-    display: flex; 
+.row,
+.col-hr,
+ul {
+    display: flex;
 }
 
-
-
-.logo-hr, ul, li {
-margin: 0 10px;
+.logo-hr,
+ul,
+li {
+    margin: 0 10px;
 
 }
 
 .row {
     margin: 0 auto;
     justify-content: space-between;
-    
+
 }
 
 .col-hr {
     height: 60px;
     align-items: center;
     margin: 0 10px;
-   
-    
 }
 
-li{
+li {
     list-style-type: none;
 }
 
@@ -46,16 +45,72 @@ li span {
 }
 
 /* utility */
-.bt-blue{
+.bt-blue {
     background-color: #0061ff;
     color: white;
     border: none;
-    padding:10px;
+    padding: 10px;
     align-items: center;
+}
+
+/* utility */
+
+/* MAIN */
+
+.jumbotron {
+    background-color: #b4d0e7;
+ }
+
+.container-mn{
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 60%;
+}
+
+.row-mn {
+    margin: 0 auto;
+}
+
+.col-100 h1 {
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-65{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.col-35{
+    width: 35%;
+    margin: 0 auto;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.jumbo img {
+    width: 100%;
+    margin: 0 auto;
+
+}
+span {
+    display: block;
+}
+
+.content span, .bt-blue {
+    margin-bottom: 30px;
+}
+
+.content i{
+    font-size: 40px;
 }
 
 
 
-/* utility */
 
-MAIN
