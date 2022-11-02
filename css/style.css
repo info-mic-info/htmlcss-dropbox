@@ -48,9 +48,15 @@ li span {
 /* utility */
 .bt-blue {
     background-color: #0061ff;
-    color: white;
     padding: 5px;
-    
+    text-align: center;
+}
+a {
+    color: white;
+}
+
+.padding-10px{
+    padding: 10px 0;
 }
 
 /* utility */
@@ -61,6 +67,7 @@ li span {
 
 .jumbotron {
     background-color: #b4d0e7;
+    margin-bottom: 40px;
  }
 
 .container-jb{
@@ -122,27 +129,34 @@ span {
 
 .container-mn{
     margin: 0% auto;
-    width: 75%;
+    width: 50%;
 }
 
 .container-mn .row{
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .col-30{
     width: 30%;
     margin-top: 30px;
-    margin: 0 auto;
+    margin: 60px 0;
+    border: solid 1px grey;
+ 
     
 }
 
 .title{
+    width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
     border: solid 1px grey;    
 }
 
 .content-tab{
-    border: solid 1px grey;
+    
+    
+  
 }
 
 .content-tab ul{
@@ -152,6 +166,46 @@ span {
 
 li span{
     display: inline;
+}
+
+
+/* cambiare questo */
+.container-mn .col-100{
+    border: solid 1px grey;
+}
+
+
+.content-tab li {
+    padding: 10px 0;
+}
+
+.content-tab span, h3{
+    padding: 10px 0;
+}
+
+/* col-100-tem */
+
+.col-65 ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.img-partner img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+ul{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+
+
+.col-30 img{
+  width: 100%;
 }
 
 
