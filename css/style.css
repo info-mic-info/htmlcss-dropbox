@@ -49,8 +49,7 @@ li span {
 .bt-blue {
     background-color: #0061ff;
     color: white;
-    border: none;
-    padding: 10px;
+    padding: 5px;
     
 }
 
@@ -96,12 +95,21 @@ li span {
     width: 100%;
     margin: 0 auto;
 }
+.jumbotron .bt-blue{
+    margin-bottom: 20px;
+}
+
+.jumbotron span{
+    margin-bottom: 20px;
+}
+
 
 .jumbo img {
     width: 100%;
     margin: 0 auto;
-
 }
+
+
 span {
     display: block;
 }
@@ -113,7 +121,8 @@ span {
 /* main centrale */
 
 .col-30{
-    
+    width: 30%;
+    height: 50px;
 }
 
 
