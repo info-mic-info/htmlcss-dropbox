@@ -13,20 +13,28 @@
 
 
 .row, .col-hr, ul {
-    display: flex;
+    display: flex; 
 }
+
+
 
 .logo-hr, ul, li {
 margin: 0 10px;
+
 }
 
 .row {
     margin: 0 auto;
+    justify-content: space-between;
+    
 }
 
 .col-hr {
     height: 60px;
-    align-items: center;  
+    align-items: center;
+    margin: 0 10px;
+   
+    
 }
 
 li{
@@ -36,3 +44,18 @@ li{
 li span {
     color: grey;
 }
+
+/* utility */
+.bt-blue{
+    background-color: #0061ff;
+    color: white;
+    border: none;
+    padding:10px;
+    align-items: center;
+}
+
+
+
+/* utility */
+
+MAIN
