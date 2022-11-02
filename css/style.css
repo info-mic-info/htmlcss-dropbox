@@ -5,6 +5,34 @@
     /* border: solid 1px black; */
 }
 
-body{
-    background-color: red;
+/* HEADER */
+
+.container {
+    margin: 0 auto;
+}
+
+
+.row, .col-hr, ul {
+    display: flex;
+}
+
+.logo-hr, ul, li {
+margin: 0 10px;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.col-hr {
+    height: 60px;
+    align-items: center;  
+}
+
+li{
+    list-style-type: none;
+}
+
+li span {
+    color: grey;
 }
