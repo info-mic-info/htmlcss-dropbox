@@ -44,24 +44,27 @@ li span {
     color: grey;
 }
 
+
 /* utility */
 .bt-blue {
     background-color: #0061ff;
     color: white;
     border: none;
     padding: 10px;
-    align-items: center;
+    
 }
 
 /* utility */
 
 /* MAIN */
 
+/* jumbotron */
+
 .jumbotron {
     background-color: #b4d0e7;
  }
 
-.container-mn{
+.container-jb{
     margin: 0 auto;
     padding: 40px 0;
     width: 60%;
@@ -103,12 +106,14 @@ span {
     display: block;
 }
 
-.content span, .bt-blue {
-    margin-bottom: 30px;
-}
-
 .content i{
     font-size: 40px;
+}
+
+/* main centrale */
+
+.col-30{
+    
 }
 
 
