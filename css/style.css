@@ -245,7 +245,7 @@ ul {
 }
 
 .row-team {
-    width: 100%;
+    width: 20%;
     display: flex;
     flex-direction: column;
 }
@@ -253,10 +253,15 @@ ul {
 
 .col-sm {
     width: 100%;
-    height: 100%;
-
+    margin: 0 auto;
 }
 
+.row-team-2{
+    margin: 0 auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
 
 .col-bg {
     margin: 0 auto;
@@ -265,10 +270,13 @@ ul {
    
 }
 
-
-.row-team-2{
+.row-team-3{
+    width: 20%;
     display: flex;
+    flex-direction: column;
 }
+
+
 
 .sqr-logo img {
     width: 100%;
