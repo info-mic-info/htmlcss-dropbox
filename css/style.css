@@ -50,11 +50,40 @@ li span {
     padding: 5px;
     text-align: center;
 }
+
 a {
     color: white;
 }
 
-.padding-10px{
+.bkg-green{
+    background-color: #a2d39b;
+}
+
+.bkg-bordeaux {
+    background-color: #61082b;
+}
+
+.bkg-blue{
+    background-color: #0093ce;
+}
+
+.bkg-orange{
+    background-color: #ff1c1c;
+}
+
+.bkg-ligthblue{
+    background-color: #b4d0e7;
+}
+
+.bkg-blue-strong{
+    background-color: #0d2481;
+}
+
+.bkg-yellow{
+    background-color: #ffd830;
+}
+
+.padding-10px {
     padding: 10px 0;
 }
 
@@ -67,9 +96,9 @@ a {
 .jumbotron {
     background-color: #b4d0e7;
     margin-bottom: 40px;
- }
+}
 
-.container-jb{
+.container-jb {
     margin: 0 auto;
     padding: 40px 0;
     width: 60%;
@@ -88,24 +117,26 @@ a {
     width: 100%;
 }
 
-.col-65{
+.col-65 {
     width: 65%;
     margin: 0 auto;
 }
 
-.col-35{
+.col-35 {
     width: 35%;
     margin: 0 auto;
 }
-.content{
+
+.content {
     width: 100%;
     margin: 0 auto;
 }
-.jumbotron .bt-blue{
+
+.jumbotron .bt-blue {
     margin-bottom: 20px;
 }
 
-.jumbotron span{
+.jumbotron span {
     margin-bottom: 20px;
 }
 
@@ -120,56 +151,52 @@ span {
     display: block;
 }
 
-.content i{
+.content i {
     font-size: 40px;
 }
 
 /* main centrale---------------------------- */
 
-.container-mn{
+.container-mn {
     margin: 0% auto;
     width: 50%;
 }
 
-.container-mn .row{
+.container-mn .row {
     justify-content: space-between;
 }
 
-.col-30{
+.col-30 {
     width: 30%;
     margin-top: 30px;
     margin: 60px 0;
     border: solid 1px grey;
- 
-    
+
+
 }
 
-.title{
+.title {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid 1px grey;    
+    border: solid 1px grey;
 }
 
-.content-tab{
-    
-    
-  
-}
+.content-tab {}
 
-.content-tab ul{
+.content-tab ul {
     display: flex;
     flex-direction: column;
 }
 
-li span{
+li span {
     display: inline;
 }
 
 
 /* cambiare questo */
-.container-mn .col-100{
+.container-mn .col-100 {
     border: solid 1px grey;
 }
 
@@ -178,38 +205,79 @@ li span{
     padding: 10px 0;
 }
 
-.content-tab span, h3{
+.content-tab span,
+h3 {
     padding: 10px 0;
 }
 
 /* col-100-tem */
 
-.col-65 ul{
+.col-65 ul {
     display: flex;
     flex-direction: column;
 }
 
-.img-partner img{
+.img-partner img {
     width: 100%;
     margin: 0 auto;
 }
 
 
 
-ul{
+ul {
     display: flex;
     flex-direction: column;
     padding: 20px 10px;
 }
 
 
-.col-30 img{
-  width: 100%;
+.col-30 img {
+    width: 100%;
 }
 
 
+/* Loghi Team */
+
+.box-loghi-1{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.row-team {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 
+.col-sm {
+    width: 100%;
+    height: 100%;
+
+}
 
 
+.col-bg {
+    margin: 0 auto;
+    width: 100%;
+    background-color: red;
+   
+}
+
+
+.row-team-2{
+    display: flex;
+}
+
+.sqr-logo img {
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+}
+
+.sqr-logo{
+    width: 0 auto;
+    
+}
 
