@@ -83,6 +83,12 @@ a {
     background-color: #ffd830;
 }
 
+.bkg-ligthgrey{
+    background-color: lightgrey;
+}
+
+
+
 .padding-10px {
     padding: 10px 0;
 }
@@ -244,48 +250,52 @@ ul {
     display: flex;
 }
 
-.row-team {
-    width: 20%;
+
+.sqr-sm{
+    width: calc(100%/3); 
+}
+
+.col-sm{
     display: flex;
-    flex-direction: column;
-}
-
-
-.col-sm {
     width: 100%;
-    margin: 0 auto;
+    height: 50%;
 }
 
-.row-team-2{
+.row-sm{
+    width: 50%;
+    height: 100%;
+}
+
+.sqr-bg{
+    width: calc(100%/3); 
     margin: 0 auto;
-    width: 20%;
     display: flex;
-    flex-direction: column;
-}
-
-.col-bg {
-    margin: 0 auto;
-    width: 100%;
-    background-color: red;
-   
-}
-
-.row-team-3{
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.sqr-logo img {
-    width: 100%;
-    height: 100px;
-    padding: 30px;
 }
 
 .sqr-logo{
-    width: 0 auto;
+
+width: 100%;
+height: 100%;
+position: relative;
+}
+
+.sqr-logo img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 100%;
+    height: 100%;
+    padding: 30px;
     
 }
+
+
+
+
+
+
+
+
 
