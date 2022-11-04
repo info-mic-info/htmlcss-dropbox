@@ -224,7 +224,7 @@ span {
     justify-content: space-between;
 }
 
-.col-30 {
+.section-1 .col-30 {
     width: 30%;
     border: solid 1px grey;
 }
@@ -241,7 +241,12 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
     border: solid 1px grey;
+}
+
+.title i{
+    font-size: 20px;
 }
 
 
@@ -353,17 +358,35 @@ ul {
     filter: invert();
     width: 100%;
     height: 100%;
-    padding: 30px;
+    padding: 60px;
+}
+
+.sqr-logo-bg img{
+    width: 50%; 
+    padding: 20px;  
+}
+
+.sqr-logo-bg p{
+    padding: 20px;
 
 }
 
+.sqr-logo-bg p:last-child{
+    padding-bottom: 40%;
+}
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
+.col-100-ligthblue{
+    width: 100%;
+}
 
+.content-ligthblue{
+    padding: 70px;
+}
 
 /* domande frequenti */
 
