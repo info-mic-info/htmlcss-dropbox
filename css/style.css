@@ -64,13 +64,25 @@ li span {
 }
 
 /* utility */
+
+a{
+    text-decoration: none;
+}
+
 .bt-blue {
     background-color: #0061ff;
     padding: 5px;
     text-align: center;
 }
 
-a {
+.bt-white {
+    background-color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.bt-blue a {
     color: white;
 }
 
@@ -107,7 +119,6 @@ a {
 }
 
 
-
 .padding-10px {
     padding: 10px 0;
 }
@@ -130,6 +141,10 @@ i {
 
 .margin-rigth-20px {
     margin-right: 20px;
+}
+
+.border-grey{
+    border: 1px solid lightslategray
 }
 
 /* utility */
@@ -305,12 +320,14 @@ ul {
 }
 
 
-
-
-
 .col-30 img {
     width: 100%;
 }
+
+.advertising{
+    margin: 100px 0;
+}
+
 
 
 /* Loghi Team */
@@ -377,16 +394,28 @@ ul {
 
 .flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .col-100-ligthblue{
     width: 100%;
 }
 
+
 .content-ligthblue{
     padding: 70px;
 }
+
+.bt-white a{
+    color: black;
+}
+
+.mini-title{
+    margin-right: 30%;
+    color: #61082b;
+}
+
+
 
 /* domande frequenti */
 
