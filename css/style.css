@@ -153,18 +153,26 @@ i {
 
 /* jumbotron */
 
+
+
 .jumbotron {
     width: 100%;
     background-color: #b4d0e7;
-    margin-bottom: 80px;
+    margin-bottom: 80px;   
+    height: 500px;
     position: relative;
+   
+
 }
 
 .container-jb {
     margin: 0 auto;
-    padding: 40px 0;
+    padding-top: 40px;
     width: 60%;
-    position: relative;
+    position: absolute;
+    left: 20%;
+    bottom: -50px;
+ 
 }
 
 
@@ -191,6 +199,10 @@ i {
     margin: 0 auto;
 }
 
+.col-35 .bt-blue{
+    margin: 20px 15px;
+}
+
 .col-35 {
     width: 35%;
     margin: 0 auto;
@@ -215,10 +227,7 @@ i {
     margin: 0 auto;
 }
 
-.jumbo {
-    position: absolute;
-    bottom: -10;
-}
+
 
 span {
     display: block;
